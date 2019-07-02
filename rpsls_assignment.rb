@@ -27,7 +27,7 @@ def shortcut(characters)
 end
 
 def prompt(message)
-  puts "#{message}"
+  puts message.to_s
 end
 
 def win?(first, second)
